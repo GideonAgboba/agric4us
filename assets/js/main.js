@@ -1,0 +1,33 @@
+$(document).ready(function(){	
+	$('#mydropdownsactivator').click(function(e){
+        $('.navbar').addClass('new-navbar-bg');
+    });	
+	$('#homeclick').click(function(e){
+        $(this).addClass('active');
+        $('.navbar').addClass('new-navbar-bg');
+        $('#animeoftheweekclick').removeClass('active');
+        $('#top20animesclick').removeClass('active');
+        $('#animesitesclick').removeClass('active');
+    });
+	$('#animeoftheweekclick').click(function(e){
+        $(this).addClass('active');
+        $('.navbar').addClass('new-navbar-bg');
+        $('#homeclick').removeClass('active');
+        $('#top20animesclick').removeClass('active');
+        $('#animesitesclick').removeClass('active');
+    });
+	$('#top20animesclick').click(function(e){
+        $(this).addClass('active');
+        $('.navbar').addClass('new-navbar-bg');
+        $('#animeoftheweekclick').removeClass('active');
+        $('#homeclick').removeClass('active');
+        $('#animesitesclick').removeClass('active');
+    });
+	$('#animesitesclick').click(function(e){
+        $(this).addClass('active');
+        $('.navbar').addClass('new-navbar-bg');
+        $('#animeoftheweekclick').removeClass('active');
+        $('#top20animesclick').removeClass('active');
+        $('#homeclick').removeClass('active');
+    });
+});

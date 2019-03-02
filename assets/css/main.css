@@ -1,0 +1,192 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/Rajdhani-Regular.ttf);
+}
+
+body {
+    font-family: myFirstFont;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    /* -webkit-box-shadow: inset 0 0 6px #fff;  */
+    -webkit-box-shadow: inset 0 0 6px #4a4c7d; 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    /* -webkit-box-shadow: inset 0 0 6px #fff; */
+    -webkit-box-shadow: inset 0 0 6px #4a4c7d;
+}
+.new-navbar-bg{
+    /* background: #000000bc !important; */
+    background: #4a4c7d;
+}
+.new-navbar-bg:hover{
+    color: #fff !important;
+    border-bottom: 0px solid transparent !important;
+}
+.my-navbar a{
+    color: #fff;
+    margin: 0rem 0.5rem;
+    text-decoration: none;
+}
+a.navbar-brand:hover{
+    text-decoration: none;
+}
+.navbar-brand img:hover{
+    text-decoration: none;
+}
+.my-navbar .logo{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.my-navbar a:hover{
+    color: #fff !important;
+    border-bottom: 1.5px solid #fff;
+}
+.my-navbar  .active{
+    color: #fff !important;
+    border-bottom: 1.5px solid #fff !important;
+}
+.first-container{
+    background: #4a4c7d ;
+    color: #fff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.first-container-content{
+    height: 90%;
+    width: 100%;
+    background: linear-gradient(30deg, #4a4c7d,#44466d,#44466d,#4a4c7d);
+    box-shadow: inset 60px 20px 10px 18px #4a4c7d !important;
+    border-top-left-radius: 300px;
+    border-top-left-radius: 300px;
+    padding-top: 7em;
+    /* background:linear-gradient(rgba(0.0, 0.0, 0.0, 0.7),rgba(0.0, 0.0, 0.0, 0.7),rgba(0.0, 0.0, 0.0, 0.7)), url('../imgs/firstcontainerbg.jpg'); */
+}
+/* .first-container-text{
+    
+} */
+.first-container-text hr{
+    float: left !important;
+    padding: 2px;
+    border-radius: 50px !important;
+}
+.btn-p-w{
+    padding: 1rem 3rem;
+    color: #fff;
+    border: 0px solid transparent;
+    background: linear-gradient(40deg, #363957, #363957, #4a4c7d);
+    border-radius: 5px !important;
+    transition: ease-in-out 1s !important;
+    cursor: pointer;
+}
+a.btn-p-w:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.btn-w-p{
+    padding: 1rem 3rem;
+    color: #363957;
+    border: 0px solid transparent;
+    background: linear-gradient(40deg,white, #f7f7f7fa, lightgray);
+    border-radius: 5px !important;
+    transition: ease-in-out 1s !important;
+    cursor: pointer;
+}
+/* .btn-w-p:hover{
+    box-shadow: 3px 6px 20px #2a2c43;
+    filter: brightness(0.9);
+    padding: 1rem 4rem;
+    transition: ease-in-out 1s !important;
+} */
+.second-container{
+    background:  #fff;
+    /* color: #4a4c7d; */
+}
+.second-container-content{
+    height: 90%;
+    width: 100%;
+    padding-top: 7em;
+    /* background:linear-gradient(rgba(0.0, 0.0, 0.0, 0.7),rgba(0.0, 0.0, 0.0, 0.7),rgba(0.0, 0.0, 0.0, 0.7)), url('../imgs/firstcontainerbg.jpg'); */
+}
+
+.second-container-content img{
+    width: 100%;
+    height: 100%;
+}
+.second-container-text hr{
+    float: left !important;
+    padding: 2px;
+    border-radius: 50px !important;
+}
+.bg-purple{
+    background: #4a4c7d;
+}
+.text-purple{
+    color: #4a4c7d;
+}
+.third-container{
+    height: 70vh;
+    margin-top: 3em;
+}
+.animetop20-content{
+    /* background: red; */
+    /* position: absolute; */
+    position: relative;
+    left: -8em;
+}
+@media screen and (min-width: 1024px){
+    .desktop-hide{
+        display: none;
+    }
+}
+@media screen and (max-width: 1024px){
+    .mobile-hide{
+        display: none;
+    }
+    .third-container{
+        height: auto;
+        margin-top: 3em;
+    }
+    .animetop20-content{
+        position: relative;
+        left: auto;
+    }
+    .animetop20-content .card{
+        margin-bottom: 1em;
+    }
+    .fourth-section{
+        padding: 20px 20px !important;
+    }
+}
+.my-card{
+    box-shadow:  18px 20px 50px #4a4c7d;
+}
+.fourth-section{
+    margin: 0 auto !important;
+    text-align: center;
+    padding: 20px 180px;
+}
+.fourth-section iframe{
+    margin: 0 auto !important;
+    text-align: center;
+    float: none;
+    width: -webkit-fill-available;
+    box-shadow: 0px 0px 10px lightgray;
+    height: 450px;
+
+}
+footer{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
